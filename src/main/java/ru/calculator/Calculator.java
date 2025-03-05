@@ -2,10 +2,9 @@ package ru.calculator;
 
 public class Calculator {
 
-    public static void plus(int first, int second) {
+    public static int plus(int first, int second) {
         int result = first + second;
-        System.out.println(result);
-
+        return result;
     }
 
     public static void minus(int first, int second) {
@@ -14,7 +13,8 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
-        plus(100, 500);
+        int number = plus(100, 500);
+        System.out.println(plus(4, 5));
         plus(4, 2);
         plus(3, 5);
         minus(4, 6);
