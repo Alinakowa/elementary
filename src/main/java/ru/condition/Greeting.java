@@ -2,13 +2,12 @@ package ru.condition;
 
 public class Greeting {
     public static void main(String[] args) {
-        String idea = "I ";
-        idea = idea + "like ";
-        idea += "Java! ";
-        String idea1 = idea + "But I am a newbie.";
+        String idea = "I like Java";
+        System.out.println(idea);
+
+        idea = idea + " But I am a newbie.";
         int year = 2025;
-        String separate = " ";
-        String idea3 = idea1 + separate + year;
-        System.out.println(idea3);
+        idea = idea + year;
+        System.out.println(idea);
     }
 }
